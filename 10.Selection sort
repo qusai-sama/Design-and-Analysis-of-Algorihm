@@ -4,7 +4,6 @@ void swap(int *a, int *b) {
   *a = *b;
   *b = temp;
 }
-
 void selectionSort(int array[], int size) {
   for (int step = 0; step < size - 1; step++) {
     int min_idx = step;
